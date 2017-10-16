@@ -3,6 +3,11 @@
 composer require cuatao/laravel-html-caching
 ```
 
+# Publish the package config file
+```
+php artisan vendor:publish
+```
+
 # Register as route middleware
 ```php
 // within app/Http/Kernel.php
