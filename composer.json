@@ -1,0 +1,26 @@
+{
+    "name": "cuatao/laravel-html-caching",
+    "authors": [
+        {
+            "name": "cuatao",
+            "email": "code@cuatao.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cuatao\\LaravelHtmlCaching\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cuatao\\LaravelCachingHtml\\CachingHtmlServiceProvider"
+            ]
+        }
+    }
+}
