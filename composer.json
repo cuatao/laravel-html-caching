@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Cuatao\\LaravelCachingHtml\\CachingHtmlServiceProvider"
+                "Cuatao\\LaravelHtmlCaching\\CachingHtmlServiceProvider"
             ]
         }
     }
