@@ -3,7 +3,7 @@ return [
     /*
      * Whether or not to enable HTML response caching. Off by default.
      */
-    'enable' => env('HTML_CACHE_ENABLE', false),
+    'enable' => env('HTML_CACHE_ENABLE', true),
     /*
      * TTL cache the HTML response, in minutes.
      */
